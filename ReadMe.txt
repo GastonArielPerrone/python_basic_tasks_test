@@ -14,7 +14,7 @@ a) Python instalado (full extension).
 b) VSCode.
 c) Pytest (Para que corra el test): Instalación: pip install pytest
 
-3.  Modo de uso:
+3. 💻 Modo de uso:
 
 Para realizar los ejercicios debés ingresar a la carpeta "Tasks" y allí encontrarás cada
 archivo .py con su nombre (tema en particular).
@@ -32,5 +32,5 @@ pytest -v test_tiposDeDatos.py
 
 Y allí nos dará el resultado:
 
-**IMPORTANTE** Cada archivo tiene su propio test con su nombre; pero lo que difiere es su
+❗ **IMPORTANTE** Cada archivo tiene su propio test con su nombre; pero lo que difiere es su
 inicio con la palabra "test_"
