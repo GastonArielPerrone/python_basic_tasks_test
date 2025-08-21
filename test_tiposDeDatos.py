@@ -33,10 +33,8 @@ def test_tupla_correcta():
     assert isinstance(mi_tupla("Gastón", 33, "Masculino",True), tuple), "Deberá retornar una tupla." # type: ignore
     
 def test_conjunto_tipoDeDatos():
-    # Creamos un conjunto de prueba para pasarlo a la función
     conjunto_de_prueba = {1, 2, 3, 4, 5, 6, 7}
     
-    # Ahora la función acepta un conjunto de enteros sin problemas
     resultado = mi_conjunto_de_numeros(conjunto_de_prueba) #type:ignore
     
     assert isinstance(resultado, set), "El valor devuelto debe ser de tipo 'set'."
