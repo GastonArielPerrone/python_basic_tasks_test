@@ -10,11 +10,11 @@ from numpy import true_divide
 def promedioDeNotas(nota1: float, nota2: float, nota3: float): #type:ignore
     #En esta función deberás desarrollar un algoritmo que calcule el promedio de notas.
     #Deberá retornar un número decimal.
-    return (nota1 + nota2 + nota3)/3
+    pass
                
 def promocionoONo(promedio, nota1, nota2, nota3): #type:ignore
     #En esta función deberás retornar:
     #True (promocionó) en caso de que el promedio sea mayor o igual a 7.00 y todas las notas
     #sean mayor e igual a 7.00;
     #False en caso contrario.
-    return promedio >= 7.00 and nota1 >= 7.00 and nota2 >= 7.00 and nota3 >= 7.00
+    pass
