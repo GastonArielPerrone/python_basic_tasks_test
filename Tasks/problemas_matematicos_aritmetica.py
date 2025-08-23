@@ -28,3 +28,7 @@ def minutos_a_horas_minutos_segundos(minutos: int):
     #Retornar "hh:mm:ss"
     #NOTA: hh, mm y ss esperan 2 dígitos.
     pass
+
+def peso_a_dolar(peso: float):
+    #Teniendo en cuenta que el peso argentino vale 0.00076 USD retornar el dolar.
+    pass

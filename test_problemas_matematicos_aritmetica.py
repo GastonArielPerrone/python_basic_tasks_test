@@ -1,13 +1,11 @@
 """
 Por favor, no borrar ni modificar este código ya que tu test pasará depende de este.
 """
-from unittest import result
-from traitlets import Int
-from Tasks.problemas_matematicos_aritmetica import promedioDeNotas, promocionoONo, sobrante_de_manzanas, minutos_a_horas_minutos_segundos
+import pytest
+from Tasks.problemas_matematicos_aritmetica import promedioDeNotas, promocionoONo, sobrante_de_manzanas, minutos_a_horas_minutos_segundos, peso_a_dolar
 
 
 def test_promedioDeNotas_calculo_correcto():
-    """Verifica que el promedio de notas se calcule correctamente."""
     assert promedioDeNotas(7.0, 8.0, 9.0) == 8.0
     assert promedioDeNotas(6.0, 6.0, 6.0) == 6.0
     assert promedioDeNotas(10.0, 10.0, 10.0) == 10.0
@@ -39,3 +37,15 @@ def test_minutos_a_horas_minutos_segundos_correcto():
     result = minutos_a_horas_minutos_segundos(60)
     expected = "01:00:00"
     assert result == expected, "No se logró el resultado esperado."
+    
+def test_peso_a_dolar_tipoDato():
+    assert isinstance(peso_a_dolar(4.00), float), "Debe retornar un resultado decimal."
+    
+def test_peso_a_dolar_correcto():
+    result = peso_a_dolar(4)
+    expected = 0.00304
+    assert result == expected, "No es lo que se esperaba."
+    with pytest.raises(ValueError):
+        peso_a_dolar(0)
+    with pytest.raises(ValueError):
+        peso_a_dolar(-4.5)
