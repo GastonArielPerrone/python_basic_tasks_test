@@ -15,3 +15,8 @@ def promocionoONo(promedio, nota1, nota2, nota3): #type:ignore
     #sean mayor e igual a 7.00;
     #False en caso contrario.
     pass
+
+def sobrante_de_manzanas(totalManzanas, cantidadPersonas):
+    #En esta actividad solo retornaremos lo que sobre de manzanas para un reparto
+    #justo de x cantidad de personas (cantidadPersonas).
+    pass
