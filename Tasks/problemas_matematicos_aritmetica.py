@@ -4,10 +4,12 @@ Nota: Tené en cuenta que para que cada FUNCIÓN funcione deberá estar indentad
 De lo contrario no funcionará. Para completar, por favor, quitá la palabra reservada 'pass'.
 Nota 2: Conserva los parámetros.
 """
-promedio = def promedioDeNotas(nota1: float, nota2: float, nota3: float): #type:ignore
-               #En esta función deberás desarrollar un algoritmo que calcule el promedio de notas.
-               #Deberá retornar un número decimal.
-               pass #type:ignore
+def promedioDeNotas(nota1: float, nota2: float, nota3: float): #type:ignore
+    #En esta función deberás desarrollar un algoritmo que calcule el promedio de notas.
+    #Deberá retornar un número decimal.
+    pass #type:ignore
+
+promedio = promedioDeNotas
                
 def promocionoONo(promedio, nota1, nota2, nota3): #type:ignore
     #En esta función deberás retornar:
