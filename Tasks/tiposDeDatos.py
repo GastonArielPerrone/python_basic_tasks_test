@@ -41,6 +41,6 @@ def mi_tupla(tupla):
     #En esta actividad deberás retornar un dato de tipo Tupla "("Gastón", 33, "Masculino", 84.54)"
     pass
 
-def mi_conjunto_de_numeros(coonjunto: Set[Int]):
+def mi_conjunto_de_numeros(conjunto: Set[Int]):
     #En esta función deberás asignar un conjunto de números enteros (tus preferidos).
     pass
