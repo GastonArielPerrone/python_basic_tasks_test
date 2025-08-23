@@ -4,9 +4,6 @@ Nota: Tené en cuenta que para que cada FUNCIÓN funcione deberá estar indentad
 De lo contrario no funcionará. Para completar, por favor, quitá la palabra reservada 'pass'.
 Nota 2: Conserva los parámetros.
 """
-from numpy import true_divide
-
-
 def promedioDeNotas(nota1: float, nota2: float, nota3: float): #type:ignore
     #En esta función deberás desarrollar un algoritmo que calcule el promedio de notas.
     #Deberá retornar un número decimal.
