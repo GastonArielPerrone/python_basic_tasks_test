@@ -2,8 +2,7 @@
 Por favor, no borrar ni modificar este código ya que tu test pasará depende de este.
 """
 import pytest
-from Tasks.
-modularidad_potencia import modularidad, potencia
+from Tasks.modularidad_potencia import modularidad, potencia
 
 def test_modularidad():
     assert modularidad(5, 2) == 1

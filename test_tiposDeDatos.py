@@ -33,9 +33,6 @@ def test_tupla_correcta():
     assert isinstance(mi_tupla("Gastón", 33, "Masculino",True), tuple), "Deberá retornar una tupla." # type: ignore
     
 def test_mi_conjunto_de_numeros_contenido():
-    """
-    Verifica que la función devuelva el conjunto de números esperado.
-    """
     expected_set = {1, 5, 9, 13, 17}
     result = mi_conjunto_de_numeros() # type: ignore
     assert result == expected_set, f"Se esperaba {expected_set}, pero se obtuvo {result}"

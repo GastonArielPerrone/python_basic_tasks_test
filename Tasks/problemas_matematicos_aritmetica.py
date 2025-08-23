@@ -20,3 +20,11 @@ def sobrante_de_manzanas(totalManzanas, cantidadPersonas):
     #En esta actividad solo retornaremos lo que sobre de manzanas para un reparto
     #justo de x cantidad de personas (cantidadPersonas).
     pass
+
+def minutos_a_horas_minutos_segundos(minutos: int):
+    #Sabiendo que:
+    #1 hora son 60 min y;
+    #60 min = 3600 seg.
+    #Retornar "hh:mm:ss"
+    #NOTA: hh, mm y ss esperan 2 dígitos.
+    pass
