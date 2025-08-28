@@ -16,6 +16,8 @@ def test_Validador_de_password_tipoDato():
 def test_Validador_de_password_correcto():
     assert Validador_de_password("123456789@", "123456789@") == True
     assert Validador_de_password("123456789@", "@123456789") == False
+    with pytest.raises(ValueError):
+        Validador_de_password("123456789@", "")
     
 def test_Recuperacion_de_password_tipoDato():
     assert isinstance(Recuperacion_de_password("123456789@", "123456789@", "123456789@"), bool), "Debe retorna un booleano."
@@ -24,3 +26,5 @@ def test_Recuperacion_de_password_correcto():
     assert Recuperacion_de_password("123456789@", "121314151@", "121314151@") == True
     assert Recuperacion_de_password("123456789@", "121314151@", "133314151@") == False
     assert Recuperacion_de_password("123456789@", "123456789@", "123456789@") == False
+    with pytest.raises(ValueError):
+        Recuperacion_de_password("123456789@", "", "")
