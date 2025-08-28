@@ -4,10 +4,6 @@ Nota: Tené en cuenta que para que cada FUNCIÓN funcione deberá estar indentad
 De lo contrario no funcionará. Para completar, por favor, quitá la palabra reservada 'pass'.
 Nota 2: Conserva los parámetros.
 """
-
-from itertools import count
-
-
 def Agregar_al_carrito(productos: list, producto):
     #En esta función tenemos un carrito vació donde necesitamos agregarle "productos".
     #En este caso vamos a agregar un solo producto. Debes retornar la lista con el producto
