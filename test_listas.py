@@ -1,5 +1,5 @@
 import pytest
-from Tasks.listas import Agregar_al_carrito, Agregar_otro_producto_al_carrito, Contar_productos_adentro_del_carrito, Quitar_productos_al_carrito, Numero_esta_en_la_lista
+from Tasks.listas import Agregar_al_carrito, Agregar_otro_producto_al_carrito, Contar_productos_adentro_del_carrito, Quitar_productos_al_carrito, Numero_esta_en_la_lista, Seleccionar_un_elemento_adentro_del_carrito
 
 def test_Agregar_al_carrito_tipoDato():
     assert isinstance(Agregar_al_carrito([], "Agua"), list), "Debe retornar una lista."
@@ -46,3 +46,7 @@ def test_Numero_esta_en_la_lista_tipoDato():
 def test_Numero_esta_en_la_lista_correcto():
     assert Numero_esta_en_la_lista([1,2,3,4], 4) == True
     assert Numero_esta_en_la_lista([1,2,3,4], 5) == False
+    
+def test_Seleccionar_un_elemento_adentro_del_carrito_correcto():
+    assert Seleccionar_un_elemento_adentro_del_carrito(["Agua", "Leche", "Queso", "Manzana"], "Manzana") == "Manzana"
+    assert Seleccionar_un_elemento_adentro_del_carrito(["Agua", "Leche", "Queso", "Manzana"], "Durazno") == None

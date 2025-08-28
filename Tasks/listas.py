@@ -36,3 +36,9 @@ def Numero_esta_en_la_lista(lista: list, numero):
     #En caso de que dicho número se encuentre retornará True; caso contrario, False.
     #Podrás usar "for" loop o "in". Investiga ambas funciones.
     pass
+
+def Seleccionar_un_elemento_adentro_del_carrito(lista: list, elemento):
+    #En esta función el usuario debe consultar por un elemento de la lista;
+    #y si se encuentra deberá retornar ese elemento; caso contrario deberá
+    #retornar None.
+    pass
