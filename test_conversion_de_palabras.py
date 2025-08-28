@@ -21,3 +21,4 @@ def test_Reemplazar_caracter_de_la_palabra_tipoDato():
 
 def test_Reemplazar_caracter_de_la_palabra_correcto():
     assert Reemplazar_caracter_de_la_palabra("gato","o") == "gatO"
+    assert Reemplazar_caracter_de_la_palabra("Gastón","e") == "No se encontró dicho caracter."

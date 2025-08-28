@@ -17,6 +17,7 @@ def Convertir_primer_caracter_a_Mayuscula(palabra2):
 def Reemplazar_caracter_de_la_palabra(palabra3: str, caracter):
     #En esta función el usuario deberá escribir un solo caracter y el programa
     #deberá buscar si se encuentra ese caracter dentro de la palabra.
-    #Si lo encuentra deberá reemplazarlo por el mismo caracter en mayúscula.
+    #Si lo encuentra deberá reemplazarlo por el mismo caracter en mayúscula; caso
+    #contrario retorne "No se encontró dicho caracter."
     #Nota: Investigue sobre la función replace()
     pass
