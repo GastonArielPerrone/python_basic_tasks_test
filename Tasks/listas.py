@@ -37,4 +37,5 @@ def Seleccionar_un_elemento_adentro_del_carrito(lista: list, elemento):
     #En esta función el usuario debe consultar por un elemento de la lista;
     #y si se encuentra deberá retornar ese elemento; caso contrario deberá
     #retornar None.
+    #Nota: Investigue la función "index()" e "in". Hazlo como te convenga.
     pass
