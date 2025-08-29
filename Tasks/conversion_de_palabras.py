@@ -11,7 +11,7 @@ def Convertir_todas_las_letras_a_mayusculas(palabra):
 def Convertir_primer_caracter_a_Mayuscula(palabra2):
     #En esta función el usuario deberá escribir una palabra con letras en minúsculas
     #y la misma debe retornar con la primera letra en mayúscula.
-    #Nota: Investigue sobre la función capitalice().
+    #Nota: Investiga sobre la función capitalice().
     pass
 
 def Reemplazar_caracter_de_la_palabra(palabra3: str, caracter):
@@ -19,5 +19,5 @@ def Reemplazar_caracter_de_la_palabra(palabra3: str, caracter):
     #deberá buscar si se encuentra ese caracter dentro de la palabra.
     #Si lo encuentra deberá reemplazarlo por el mismo caracter en mayúscula; caso
     #contrario retorne "No se encontró dicho caracter."
-    #Nota: Investigue sobre la función replace()
+    #Nota: Investiga sobre la función replace()
     pass

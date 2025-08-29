@@ -5,7 +5,6 @@ De lo contrario no funcionará. Para completar, por favor, quitá la palabra res
 Nota 2: Conserva los parámetros.
 """
 from typing import Set
-
 from traitlets import Int
 def mi_nombre(nombre):
     #En esta actividad deberás darle un valor de tipo string usando "" y variable nombre y retornarlo
@@ -21,7 +20,7 @@ def mayorDeEdadONo(edad_actual):
     #Detalles:
     #Si tu edad va entre 1 a 17 años: False.
     #Si tu edad va entre 18 años en adelante: True.
-    #Pista:Utiliza expresión de comparación dentro de la sentencia "if".
+    #Pista: Utiliza expresión de comparación dentro de la sentencia "if".
     pass
            
 def mi_pesaje(pesaje):

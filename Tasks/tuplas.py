@@ -8,32 +8,32 @@ Nota 2: Conserva los parámetros.
 def Contar_repetidos(tupla1):
     #En esta función deberás retornar la cantidad de veces que se repite un
     #elemento dentro de la tupla.
-    #Nota: Investigue la función count()
+    #Nota: Investiga la función count()
     pass
 
 def Obtener_indice_de_elemento(tupla2, elemento):
     #En esta función deberás retornar la posición donde se ubica dicho elemento.
-    #Nota: Investigue la función index().
+    #Nota: Investiga la función index().
     pass
 
 def Obtener_tamanio_de_tupla(tupla3):
     #En esta función deberás retornar el tamaño de una tupla.
-    #Nota: Investigue la función len()
+    #Nota: Investiga la función len()
     pass
 
 def Suma_de_elementos(tupla4):
     #En esta función deberás retornar la suma de los elementos de tupla13.
-    #Nota: Investigue la función sum().
+    #Nota: Investiga la función sum().
     pass
 
 def Obtener_mínimo_valor(tupla5):
     #En esta función deberás retornar el mínimo valor dentro de tupla15.
-    #Nota: Investigue sobre la función min().
+    #Nota: Investiga sobre la función min().
     pass
 
 def Obtener_maximo_valor(tupla6):
     #En esta función deberás retornar el máximo valor dentro de tupla16.
-    #Nota: Investigue sobre la función max().
+    #Nota: Investiga sobre la función max().
     pass
 
 def Verificar_elemento(tupla7, elemento2):

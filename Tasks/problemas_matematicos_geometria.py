@@ -26,7 +26,7 @@ def Area_de_rectangulo(base2, altura2):
 
 def Perimetro_de_circunferencia(diametro):
     #En esta función deberás retornar el perímetro para un circunferencia.
-    #El retorne debe ser con dos dígitos decimales.
+    #El retorno debe ser con dos dígitos decimales.
     #Nota: En Python existe una función pi dentro de math.
     pass
 
