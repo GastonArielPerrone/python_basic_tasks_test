@@ -1,5 +1,12 @@
 import pytest
-from Tasks.listas import Agregar_al_carrito, Agregar_otro_producto_al_carrito, Contar_productos_adentro_del_carrito, Quitar_productos_al_carrito, Numero_esta_en_la_lista, Seleccionar_un_elemento_adentro_del_carrito
+from Tasks.listas import (
+    Agregar_al_carrito, 
+    Agregar_otro_producto_al_carrito, 
+    Contar_productos_adentro_del_carrito, 
+    Quitar_productos_al_carrito, 
+    Numero_esta_en_la_lista, 
+    Seleccionar_un_elemento_adentro_del_carrito
+    )
 
 def test_Agregar_al_carrito_tipoDato():
     assert isinstance(Agregar_al_carrito([], "Agua"), list), "Debe retornar una lista."

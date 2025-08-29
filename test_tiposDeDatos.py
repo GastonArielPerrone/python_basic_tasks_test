@@ -3,7 +3,16 @@ Por favor, no borrar ni modificar este código ya que tu test pasará depende de
 """
 import pytest
 from traitlets import Int, Set
-from Tasks.tiposDeDatos import mi_conjunto_de_numeros, mi_nombre, mi_edad, mayorDeEdadONo, mi_pesaje, mi_lista, mi_diccionario, mi_tupla
+from Tasks.tiposDeDatos import (
+    mi_conjunto_de_numeros, 
+    mi_nombre, 
+    mi_edad, 
+    mayorDeEdadONo, 
+    mi_pesaje, 
+    mi_lista, 
+    mi_diccionario, 
+    mi_tupla
+    )
 
 def test_nombre_tipoDeDato():
     assert isinstance(mi_nombre("Gastón"), str), "Debe devolverse un string."

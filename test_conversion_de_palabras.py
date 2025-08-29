@@ -2,7 +2,11 @@
 Por favor, no borrar ni modificar este código ya que tu test pasará depende de este.
 """
 import pytest
-from Tasks.conversion_de_palabras import Convertir_todas_las_letras_a_mayusculas, Convertir_primer_caracter_a_Mayuscula, Reemplazar_caracter_de_la_palabra
+from Tasks.conversion_de_palabras import ( 
+    Convertir_todas_las_letras_a_mayusculas, 
+    Convertir_primer_caracter_a_Mayuscula, 
+    Reemplazar_caracter_de_la_palabra 
+    )
 
 def test_Convertir_todas_las_letras_a_mayuscula_tipoDato():
     assert isinstance(Convertir_todas_las_letras_a_mayusculas("gastón"), str), "Debe retornar un str."

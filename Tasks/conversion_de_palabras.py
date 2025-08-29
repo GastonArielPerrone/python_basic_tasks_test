@@ -1,5 +1,5 @@
 """
-LISTAS
+CONVERSIÓN DE PALABRAS
 Nota: Tené en cuenta que para que cada FUNCIÓN funcione deberá estar indentada correctamente.
 De lo contrario no funcionará. Para completar, por favor, quitá la palabra reservada 'pass'.
 Nota 2: Conserva los parámetros.

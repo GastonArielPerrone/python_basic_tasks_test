@@ -2,8 +2,13 @@
 Por favor, no borrar ni modificar este código ya que tu test pasará depende de este.
 """
 import pytest
-from Tasks.problemas_matematicos_aritmetica import promedioDeNotas, promocionoONo, sobrante_de_manzanas, minutos_a_horas_minutos_segundos, peso_a_dolar
-
+from Tasks.problemas_matematicos_aritmetica import (
+    promedioDeNotas, 
+    promocionoONo, 
+    sobrante_de_manzanas, 
+    minutos_a_horas_minutos_segundos, 
+    peso_a_dolar
+    )
 
 def test_promedioDeNotas_calculo_correcto():
     assert promedioDeNotas(7.0, 8.0, 9.0) == 8.0

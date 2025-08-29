@@ -2,7 +2,14 @@
 Por favor, no borrar ni modificar este código ya que tu test pasará depende de este.
 """
 import pytest
-from Tasks.operaciones_basicas import suma, resta, division, multiplicacion, Raiz_cuadrada, Raiz_n_de_base_n
+from Tasks.operaciones_basicas import (
+    suma, 
+    resta, 
+    division, 
+    multiplicacion, 
+    Raiz_cuadrada, 
+    Raiz_n_de_base_n
+    )
 
 def test_suma():
     assert suma(3, 2) == 5

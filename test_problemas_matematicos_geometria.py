@@ -3,7 +3,21 @@ Por favor, no borrar ni modificar este código ya que tu test pasará depende de
 """
 from unittest import result
 import pytest
-from Tasks.problemas_matematicos_geometria import Perimetro_de_cuadrado, Area_de_cuadrado, Perimetro_de_rectangulo, Area_de_rectangulo, Perimetro_de_circunferencia, Area_de_circunferencia, Perimetro_de_triangulo, Area_de_triangulo, Perimetro_de_triangulo, Perimetro_de_rombo, Area_de_rombo, Perimetro_de_romboide, Area_de_romboide
+from Tasks.problemas_matematicos_geometria import (
+    Perimetro_de_cuadrado, 
+    Area_de_cuadrado, 
+    Perimetro_de_rectangulo, 
+    Area_de_rectangulo, 
+    Perimetro_de_circunferencia, 
+    Area_de_circunferencia, 
+    Perimetro_de_triangulo, 
+    Area_de_triangulo, 
+    Perimetro_de_triangulo, 
+    Perimetro_de_rombo, 
+    Area_de_rombo, 
+    Perimetro_de_romboide, 
+    Area_de_romboide
+    )
 
 def test_perimetro_de_cuadrado_tipoDato():
     assert  isinstance(Perimetro_de_cuadrado(40.3), float), "Debe retornar un valor tipo float."

@@ -2,7 +2,12 @@
 Por favor, no borrar ni modificar este código ya que tu test pasará depende de este.
 """
 import pytest
-from Tasks.operaciones_comparaciones_logicas import Numero_mayor, Numero_menor, Validador_de_password, Recuperacion_de_password
+from Tasks.operaciones_comparaciones_logicas import (
+    Numero_mayor, 
+    Numero_menor, 
+    Validador_de_password, 
+    Recuperacion_de_password
+    )
 
 def test_Numero_mayor_correcto():
     assert Numero_mayor(4,5) == 5
